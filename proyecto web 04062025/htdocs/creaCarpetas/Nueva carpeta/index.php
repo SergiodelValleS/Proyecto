@@ -1,1 +1,0 @@
-<?php echo "se ha creado una nueva carpeta";?>
