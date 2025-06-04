@@ -1,0 +1,7 @@
+04/06/2025
+La página web es https://proyectodaw.free.nf
+El hosting me impidió usar scripts tipo chat, por lo que la parte asociada a ella está en proyecto-chat, que en la exposición se mostrará usando los ordenadores
+del instituto conectados entre sí. O eliminaba los scripts de chat de mi web, o me bloqueaban.
+
+Al abrir proyecto-chat, aparecerá que el chat no existe. Eso es porque hay que colocar ?id_escritor=8, o cualquier id de un escritor en esa base de datos. En la página, el get se colocaría
+automáticamente, ya que al clickar "Chat" en el espacio virtual del esritor, aparece el get del mismo automáticamente.
