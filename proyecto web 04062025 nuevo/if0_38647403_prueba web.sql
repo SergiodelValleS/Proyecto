@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: sql312.infinityfree.com
--- Tiempo de generación: 04-06-2025 a las 05:21:03
+-- Tiempo de generación: 04-06-2025 a las 05:40:51
 -- Versión del servidor: 10.6.19-MariaDB
 -- Versión de PHP: 7.2.22
 
@@ -541,7 +541,7 @@ INSERT INTO `usuario` (`id_usuario`, `IP`, `nombre`, `contraseña`, `correo`, `j
 (57, '213.94.26.8', 'invitado53kw5v5i', NULL, NULL, 'invitado', '2025-05-18 19:06:31'),
 (58, '213.94.26.68', 'robertovaquero', '$2y$10$GpGp06Tov/wXylomSLkro.U24vnYKaDPpaeUqkbrHn8pcMojusxbC', 'a@gmail.com', 'escritor', '2025-05-24 22:00:00'),
 (59, '213.94.26.68', 'gustavoadolfobecquer', '$2y$10$AiilmGOePnMOaQKJ2jKs7uIWPEeVT6Y4m/2AK9Sqb9gzXnCaMqJku', 'a@gmail.com', 'escritor', '2025-05-25 13:44:15'),
-(60, '213.94.26.68', 'pruebaficha', '$2y$10$JVGEMudlPgFTU5wm8kWPJufuLZnpFYOIYw0n8zfwoDoYn5cayJFmS', 'a@gmail.com', 'escritor', '2025-05-27 00:47:54'),
+(60, '213.94.26.68', 'pruebaficha', '$2y$10$JVGEMudlPgFTU5wm8kWPJufuLZnpFYOIYw0n8zfwoDoYn5cayJFmS', 'a@gmail.com', 'usuario', '2025-05-27 00:47:54'),
 (61, '213.94.26.68', 'unacuenta', '$2y$10$HamEdNGn3PNRvV3r7lLmjuyOblf.c47qjMsrxQVbakOLut0nVOrgq', 'a@gmail.com', 'usuario', '2025-05-28 17:03:55'),
 (62, '213.94.24.4', 'superadmin', '$2y$10$j4aYo1Sscfq4s7Tt.1KRM.6HXYcnWgZA24SPxdxykEyBfR2Dy6WJa', 'a@gmail.com', 'superadmin', '2025-05-29 23:17:01'),
 (63, '213.94.25.105', 'invitado53oedgcv', NULL, NULL, 'invitado', '2025-06-02 11:23:44'),
