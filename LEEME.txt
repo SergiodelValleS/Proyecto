@@ -5,3 +5,5 @@ del instituto conectados entre sí. O eliminaba los scripts de chat de mi web, o
 
 Al abrir proyecto-chat, aparecerá que el chat no existe. Eso es porque hay que colocar ?id_escritor=8, o cualquier id de un escritor en esa base de datos. En la página, el get se colocaría
 automáticamente, ya que al clickar "Chat" en el espacio virtual del esritor, aparece el get del mismo automáticamente.
+
+En el chat puse tres botones para que en la exposición, sea más fácil mostrar que ve cada tipo de usuario (escritor, superadmin, usuario). El usuario ve lo mismo en el chat que el invitado. Si tuviese correspondencia real con la página real, estos botones no se vería, pero como lo único que no me dejaron mantener en la web es lo del chat, no quise meter en local también la página de login.
