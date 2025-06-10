@@ -1,0 +1,229 @@
+*{font-family: 'Inter', sans-serif;box-sizing: border-box;}
+a{
+    text-decoration: none !important;
+}
+a:link {
+  color: none;
+}
+
+a:hover {
+  color: none;
+}
+table, th, td {
+    border: 1px solid black !important;
+    border-collapse: collapse;
+
+  }
+  th,td{
+    padding:3px !important;}
+
+    @media screen and (max-width: 576px) {
+  table {
+    display: none;
+  }
+}
+    
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, rgb(193, 58, 251), white);
+}
+
+.pHeader{
+  font-size:36px;
+  justify-content: center; /* Alinea horizontalmente */
+  align-items: center;   /* Alinea verticalmente */
+  text-align: center;
+  margin:auto;
+}
+.pHeader a{
+    color:black;
+}
+.subrayado {
+    text-decoration: underline;
+}
+.centrar{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+header{
+  border: 2px solid black !important;
+  display: flex !important;
+  background: linear-gradient(to bottom, rgb(255, 255, 255), #FF9BE3) !important;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+/*.lineas_footer {
+    border-bottom:2px solid #000;
+    padding:0px 0;
+  }*/
+#pie_web{
+    border-top:2px solid #000;
+    border-bottom:2px solid #000;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), #FF9BE3);
+}
+  
+  .menuPie {
+    list-style-type:none;
+    margin:15px 0;
+    padding:0;
+  }
+  .menuPie li {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #4a4a4a;
+    line-height: 180%;
+}
+  .menuPie.penguin li {
+    font-size:1rem;
+    color:#000;
+  }
+  .menuPie li a {color:inherit;}
+  .menuPie li strong {font-weight:600; color:#000;}
+  /*
+  #pie .ttt {margin-top:10px; margin-bottom:10px;}
+  #pie .ttt a {
+    display:block;
+    height:26px;
+    width:57px;
+    text-indent:-99999px;
+    margin-right:0;
+    margin-left:30px;
+    text-align:left;
+    position:relative;
+  }
+  
+  #pie .ttt a::after {
+    display:block;
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:0;
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    background-image:url('../../images/ttt_negro.svg');
+    background-position:center;
+    background-repeat:no-repeat;
+    -webkit-transition:.5s ease-out;
+    -moz-transition:.5s ease-out;
+    -o-transition:.5s ease-out;
+    transition:.5s ease-out;
+  }
+ 
+  #pie .ttt a:hover::after {
+    transform-origin:center;
+    transform:rotate(-15deg) translate(-5px, -5px);
+  }
+   */
+  #cajaLogin form {
+    position:relative;
+  }
+  
+  .banner {
+   margin-bottom:5px;
+  }
+#cajaPrincipal{
+    padding-top:48px;
+    overflow:hidden;
+    //Para que funcione el space-between del body
+     flex-grow: 1;
+     //min-height:800px;
+
+    //Para que funcione el space-between del body
+}
+  /*Palabras saltonas*/
+  
+    .letter {
+  position: absolute;
+  font-size: 20px;
+  animation: fade 0.5s forwards;
+  user-select: none; /* Impide que las palabras sean seleccionables */
+  cursor: default; /* Mantiene el cursor estándar sobre las palabras */
+  pointer-events: none; /* Hace que no interfieran con los eventos del ratón */
+}
+    @keyframes fade {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+/*palabras saltonas*/
+/*clubdeLectura.php*/
+        .caja-texto {
+          width: 100%; /* Ajusta el ancho según sea necesario */
+          border: 1px solid black; /* Borde opcional */
+          font-family: Arial, sans-serif;
+          margin-top:10px;margin-bottom:10px;
+          border:1px solid black;
+        }
+        .usuario-datos{
+            padding:10px;
+            background-color:#d9d9d9;
+            text-align:center;
+        }
+        .usuario-mensaje{
+background-color:rgb(250,250,250);
+padding:10px;
+        }
+        /*
+        #usuarioInput{text-align: center;}
+        #mensajeUsuario{width:100%;padding-left: 13px;}
+        #formulario{margin-top:10px;border:1px solid black;padding:10px;position:relative;}
+        #contador{position:absolute;right:10px;}*/
+
+/*clubdeLectuar.php*/
+/*Biografía*/
+        .negrita{font-weight: bold;}
+        .parrafoColumna2{margin:0;margin-top:30px;}
+ @media only screen and (min-width: 768px) {
+  .parrafoColumna1{font-size: 20px;}
+}
+@media only screen and (min-width: 992px) {
+  .parrafoColumna1{font-size: 25px;}
+}
+@media only screen and (min-width: 1200px) {
+  .parrafoColumna1{font-size: 30px;}
+}
+@media only screen and (min-width: 1400px) {
+  .parrafoColumna1{font-size: 40px;}
+}
+
+@media only screen and (max-width:583px) { /* el max incluye el 768, el min no*/
+  .parrafoColumna2{font-size: 16px;}
+}
+
+@media only screen and (min-width:583px) { /* el max incluye el 768, el min no*/
+  .parrafoColumna2{font-size: 12px;}
+}
+
+@media only screen and (min-width:690px) { /* el max incluye el 768, el min no*/
+  .parrafoColumna2{font-size: 11px;}
+}
+    @media only screen and (min-width:714px) { /* el max incluye el 768, el min no*/
+  .parrafoColumna2{font-size: 12px;}
+}
+@media only screen and (min-width:768px) {
+  .parrafoColumna2{font-size: 15px;} 
+}
+@media only screen and (min-width:993px) {
+  .parrafoColumna2{font-size: 19px;}
+}
+@media only screen and (min-width:1200px) {
+  .parrafoColumna2{font-size: 23px;}
+}
+@media only screen and (min-width:1201px) {
+  .parrafoColumna2{font-size: 27px;}
+}
+@media only screen and (min-width:1350px) {
+  .parrafoColumna2{font-size: 28px;}
+}

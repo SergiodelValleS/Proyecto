@@ -1,0 +1,8 @@
+index.php es una interfaz que muestra usuarios cuya jerarquía es de usuario, y mediante promocionar.php, puedes convertir un usuario en escritor.
+Además, inserta datos genéricos a las tablas que tendría un escritor, y crea la carpeta del nuevo escritor. 
+
+Tabla:
+pagina -> genera 3 páginas, que son Escritor, Biografía y Libros
+Contenido -> imagen_user, titulo_user y texto_user
+Modular -> Son 4 filas de datos, imagen_user, titulo_user y texto_user de la página Escritor y texto_user de la página Biografía
+Ficha -> Genera la fila de datos. parrafo_modular_id es la id de texto_user.
