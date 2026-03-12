@@ -155,7 +155,7 @@ cambiarHTML=jsonLibro.ISBN;
 
 if(antesGuion(libroId)=="editorial") {
 jsonLibro.editorial=prompt("Introduce la editorial. Debe ser menor o igual 50 carácteres");
-while(jsonLibro.editorial&&(jsonLibro.nombre.editorial==0||jsonLibro.nombre.editorial>50)){
+while(jsonLibro.editorial&&(jsonLibro.editorial==0||jsonLibro.editorial>50)){
     jsonLibro.editorial=prompt("Introduce un número de páginas válido");
 }
 cambiarHTML=jsonLibro.editorial;
@@ -236,7 +236,7 @@ while(jsonLibro.ISBN&&(!Number.isInteger(Number(jsonLibro.ISBN))||jsonLibro.ISBN
 if(!jsonLibro.ISBN){cancelar=true;}
 if(cancelar==false){
 jsonLibro.editorial=prompt("Introduce la editorial. Debe ser menor o igual 50 carácteres");
-while(jsonLibro.editorial&&(jsonLibro.nombre.editorial==0||jsonLibro.nombre.editorial>50)){
+while(jsonLibro.editorial&&(jsonLibro.editorial==0||jsonLibro.editorial>50)){
     jsonLibro.editorial=prompt("Introduce un número de páginas válido");
 }
 }
